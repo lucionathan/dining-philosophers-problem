@@ -61,7 +61,6 @@ public class DinnerWithSemaphore extends Dinner
             ((Semaphore) philosophers[getLeft(p_id)]).release();
         }
         System.out.println(philosophersStates);
-        //System.err.println("Philosopher " + p_id + " returned the cutlery");
         mutex.release();
     }
 }

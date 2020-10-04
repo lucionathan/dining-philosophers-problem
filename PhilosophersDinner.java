@@ -5,7 +5,6 @@ public class PhilosophersDinner {
 
     public static void main(String[] args) {
 
-        //DinnerWithMonitor dinner = new DinnerWithMonitor(PHILOSOPHERS_NUMBER);
         DinnerWithSemaphore dinner = new DinnerWithSemaphore(PHILOSOPHERS_NUMBER);
 
         for (int i = 0; i < PHILOSOPHERS_NUMBER; i++) {
